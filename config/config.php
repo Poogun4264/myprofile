@@ -1,9 +1,9 @@
 <?php
 // settings
-$servernaame = "";
-$username = "";
+$servernaame = "localhost";
+$username = "root";
 $password = "";
-$dbname = "";
+$dbname = "myprofils_db";
 
 $conn = new mysqli($servernaame, $username, $password, $dbname);
 
